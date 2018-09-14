@@ -32,3 +32,30 @@ planet = "Jupiter"
 print(planet[2:5])
 
 print("Hello %s, you scored %i out of %i" % ("Homer", 3, 100))
+
+a = "Tea " + "Leaf"
+print(a)
+
+a = "Bee " * 3
+print(a)
+# Result
+# Bee Bee Bee
+
+a = "Mushroom"
+print("m" in a)
+print("b" in a)
+print("shroo" in a)
+
+a = "Mushroom"
+print("m" not in a)
+print("b" not in a)
+print("shroo" not in a)
+
+a = "1" + "\t" + "Bee"
+b = "2" + r"\t" + "Tea"
+print(a)
+print(b)
+# result
+# 1		Bee
+# 2\tTea
+

@@ -19,3 +19,8 @@ print('I\'m ok.')
 print('I\'m learning\nPython.')
 print(r'''hello,\n
 world''')
+
+
+print("\x48\x65\x6c\x6c\x6f\x20\x57\x6f\x72\x6c\x64\x21")
+# Result
+# Hello World!
