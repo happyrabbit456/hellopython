@@ -61,3 +61,27 @@ print(calculation.sum)
 print(calculation.product)
 print(calculation.quotient)
 print(calculation.difference)
+
+
+def multiplication(*args):
+    """multiplication functions works with args as list of numbers
+       multiplication() returns the multiplication of list of numbers in args
+       Ex: multiplication(2,7,3) returns 2*7*3=42
+           multiplication(3,4,4,5) returns 3*4*4*5=240)"""
+    result = 1
+    for i in args:
+        result = result * i
+    return result
+
+
+result = multiplication(12, 89, 2, 57)
+print(result)
+result = multiplication(198, 38, 47)
+print(result)
+result = multiplication(8, 6)
+print(result)
+
+# Result
+# 121752
+# 353628
+# 48

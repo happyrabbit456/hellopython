@@ -27,3 +27,27 @@ while (counter < 10):
         break
 else:
     print("The loop has succesfully completed!")
+
+
+i=1
+while i < 11:
+    j = 0
+    while j < i:
+        print('*',end='')
+        j=j+1
+    print()
+    i=i+1
+print("Rest of the program")
+
+# Result
+# *
+# **
+# ***
+# ****
+# *****
+# ******
+# *******
+# ********
+# *********
+# **********
+# Rest of the program
