@@ -121,6 +121,7 @@ venv.bak/
 *.[Cc]ache
 *.ilk
 *.log
+*.exp
 *.lib
 *.sbr
 *.sdf
