@@ -24,3 +24,64 @@ python调用vs2013 c++ Dll, 需要保持vs2013生成的调用约定一致，不�
 lib = ctypes.cdll.LoadLibrary("PythonDll.dll")
 print(lib.add(1,3))
 print(lib.sub(a_ctypes_ptr,b_ctypes_ptr))
+
+
+5.
+https://blog.csdn.net/u012968002/article/details/80653138
+Python - python 与 c++ 相互调用
+
+首先我们写一个C语言的小程序，然后把它编译成动态链接库。
+
+//great_module.c
+
+#include <nmmintrin.h>
+
+ 
+
+#ifdef _MSC_VER
+
+    #define DLL_EXPORT __declspec( dllexport ) 
+
+#else
+
+    #define DLL_EXPORT
+
+#endif
+
+ 
+
+DLL_EXPORT int great_function(unsigned int n) {
+
+    return _mm_popcnt_u32(n);
+
+}
+这个源文件中只有一个函数 great_function，它会调用Intel SSE4.2指令集的POPCNT指令（封装在_mm_popcnt_u32中），即计算一个无符号整数的二进制表示中“1”的个数。如果你的电脑是2010年前购买的，那么很可能不支持SSE4.2指令集，你只需要把return这一行改为 return n+1;即可，同样能够说明问题。
+调用_mm_popcnt_u32需要包含Intel 指令集头文件nmmintrin.h，它虽然不是标准库的一部分，但是所有主流编译器都支持。
+中间还有一坨#ifdef...#else...#endif，这个是给MSVC准备的。因为在MSVC下，动态链接库导出的函数必须加 __declspec( dllexport ) 进行修饰。而gcc（Linux和Mac OS X的默认编译器）下，所有函数默认均导出。
+接下来把它编译为动态链接库。Windows下动态链接库的扩展名是dll，Linux下是so，Mac OS X下是dylib。这里为了方便起见，一律将扩展名设定为dll。
+
+Windows MSVC 下编译命令：（启动Visual Studio命令提示）
+cl /LD great_module.c /o great_module.dll 
+
+Windows GCC、Linux、Mac OS X下编译命令相同：
+gcc -fPIC -shared -msse4.2 great_module.c -o great_module.dll
+写一个Python程序测试它，这个Python程序是跨平台的：
+
+from ctypes import *
+
+great_module = cdll.LoadLibrary('./great_module.dll')
+
+print great_module.great_function(13)
+
+整数13是二进制的1101，所以应该输出3
+
+6.
+https://blog.csdn.net/zong596568821xp/article/details/81133511
+
+工程test2中通过boost实现python 与 c++ 相互调用
+1> 生成的dll，复制到准备保存*.py文件的目录下，并把后缀名从dll改成pyd
+2> BOOST_PYTHON_MODULE(test2)中的模块名必须和生成的dll同名，或者在生成dll之后对dll进行重命名，总之，模块名和dll名必须相同
+3> 复制test2.pyd到工程根目录或者py源代码目录，如果没有复制，会在运行pycallboostdll.py时报错
+ModuleNotFoundError: No module named 'test2'
+4> 如果忘记复制boost库中的动态链接库boost_python36-vc120-mt-x64-1_68.dll，会在运行pycallboostdll.py时报错
+ImportError: DLL load failed: 找不到指定的模块。

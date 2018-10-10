@@ -1,25 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25ca8a90-1bf8-4a9a-9691-f0f556f8d22c" name="Default" comment="c++ 调用 python 实例">
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/PythonDll.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/PythonDll/PythonDll.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/PythonDll/PythonDll.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/PythonDll/PythonDll.vcxproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/PythonDll/PythonDll.vcxproj.filters" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/PythonDll/ReadMe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/PythonDll/dllmain.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/PythonDll/stdafx.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/PythonDll/stdafx.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/PythonDll/targetver.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/bin/PythonDll_cdecl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/bin/PythonDll_stdcall.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/PythonDll/x64/Release/PythonDll.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/c++/python_c++_note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PythonDll_cdecl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PythonDll_stdcall.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pycalldll.py" afterDir="false" />
+    <list default="true" id="25ca8a90-1bf8-4a9a-9691-f0f556f8d22c" name="Default" comment="python 调用vs2013 c++ dll 实例">
+      <change afterPath="$PROJECT_DIR$/src/pycallboostdll.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c++/python_c++_note.txt" beforeDir="false" afterPath="$PROJECT_DIR$/c++/python_c++_note.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pycalldll.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pycalldll.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,68 +32,80 @@
     <SUITE FILE_PATH="coverage/hellopython$multiprocessing.coverage" NAME="multiprocessing Coverage Results" MODIFIED="1537859939620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/hellopython$ifstatements.coverage" NAME="ifstatements Coverage Results" MODIFIED="1536886837432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/hellopython$classes.coverage" NAME="classes Coverage Results" MODIFIED="1536888919064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/hellopython$hello.coverage" NAME="hello Coverage Results" MODIFIED="1536890549983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/hellopython$hello.coverage" NAME="hello Coverage Results" MODIFIED="1538300014662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/hellopython$multithreading.coverage" NAME="multithreading Coverage Results" MODIFIED="1537860974510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/hellopython$files.coverage" NAME="files Coverage Results" MODIFIED="1536890198491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/hellopython$copy.coverage" NAME="copys Coverage Results" MODIFIED="1537859926650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/hellopython$multiprocessings.coverage" NAME="multiprocessings Coverage Results" MODIFIED="1537879742160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/hellopython$listmethod.coverage" NAME="listmethod Coverage Results" MODIFIED="1536908171687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
-    <SUITE FILE_PATH="coverage/hellopython$pycalldll.coverage" NAME="pycalldll Coverage Results" MODIFIED="1538228439852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/hellopython$pycallboostdll.coverage" NAME="pycallboostdll Coverage Results" MODIFIED="1539176123256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/hellopython$pycalldll.coverage" NAME="pycalldll Coverage Results" MODIFIED="1538300066989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/hellopython$forloops.coverage" NAME="forloops Coverage Results" MODIFIED="1536887179865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1940628427">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.24" value="2" />
+          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.64" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
           <entry key="gitignore" value="2" />
-          <entry key="py" value="1975" />
-          <entry key="txt" value="37" />
+          <entry key="py" value="2462" />
+          <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="1975" />
+          <entry key="PLAIN_TEXT" value="59" />
+          <entry key="Python" value="2462" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="py" value="42" />
+          <entry key="py" value="45" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="42" />
+          <entry key="Python" value="45" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pycallboostdll.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pycalldll.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            <state relative-caret-position="76">
+              <caret line="8" column="8" selection-start-line="8" selection-end-line="8" selection-end-column="8" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -153,7 +152,6 @@
         <option value="$PROJECT_DIR$/src/modules.py" />
         <option value="$PROJECT_DIR$/src/classes.py" />
         <option value="$PROJECT_DIR$/src/files.py" />
-        <option value="$PROJECT_DIR$/src/hello.py" />
         <option value="$PROJECT_DIR$/src/strings.py" />
         <option value="$PROJECT_DIR$/src/stringmethod.py" />
         <option value="$PROJECT_DIR$/src/listmethod.py" />
@@ -170,7 +168,9 @@
         <option value="$PROJECT_DIR$/c++/C++CallPython/C++CallPython/test001.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/pycallc++.py" />
+        <option value="$PROJECT_DIR$/src/hello.py" />
         <option value="$PROJECT_DIR$/src/pycalldll.py" />
+        <option value="$PROJECT_DIR$/src/pycallboostdll.py" />
       </list>
     </option>
   </component>
@@ -181,9 +181,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="618" />
-    <option name="y" value="14" />
-    <option name="width" value="1110" />
+    <option name="x" value="637" />
+    <option name="y" value="12" />
+    <option name="width" value="1260" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -192,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,6 +234,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -254,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pycalldll">
+  <component name="RunManager" selected="Python.pycallboostdll">
     <configuration name="copys" type="PythonConfigurationType" factoryName="Python">
       <module name="hellopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -269,6 +269,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/copys.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="hellopython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/hello.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,7 +321,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multithreading" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pycallboostdll" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hellopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -312,7 +334,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/multithreading.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pycallboostdll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -374,25 +396,6 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in copy" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
-      <module name="hellopython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/copy.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <module name="hellopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -410,19 +413,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.copys" />
-      <item itemvalue="Python.multithreading" />
-      <item itemvalue="Python tests.Doctests in copy" />
       <item itemvalue="Python.multiprocessings" />
       <item itemvalue="Python.withs" />
       <item itemvalue="Python.pycalldll" />
+      <item itemvalue="Python.hello" />
+      <item itemvalue="Python.pycallboostdll" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pycallboostdll" />
         <item itemvalue="Python.pycalldll" />
+        <item itemvalue="Python.hello" />
         <item itemvalue="Python.withs" />
         <item itemvalue="Python.multiprocessings" />
-        <item itemvalue="Python.multithreading" />
-        <item itemvalue="Python tests.Doctests in copy" />
       </list>
     </recent_temporary>
   </component>
@@ -472,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538134383629</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="python 调用vs2013 c++ dll 实例">
+      <created>1538228938501</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1538228938501</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -484,9 +494,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="618" y="14" width="1110" height="1000" extended-state="0" />
+    <frame x="637" y="12" width="1260" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30083334" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -521,7 +531,8 @@
     <MESSAGE value="https://www.quackit.com/python/tutorial/python_installation.cfm&#10;python tutorial" />
     <MESSAGE value="https://blog.csdn.net/zong596568821xp/article/category/7150399/1&#10;python study" />
     <MESSAGE value="c++ 调用 python 实例" />
-    <option name="LAST_COMMIT_MESSAGE" value="c++ 调用 python 实例" />
+    <MESSAGE value="python 调用vs2013 c++ dll 实例" />
+    <option name="LAST_COMMIT_MESSAGE" value="python 调用vs2013 c++ dll 实例" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/lists.py">
@@ -634,13 +645,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/hello.txt" />
     <entry file="file://$PROJECT_DIR$/src/copy.py" />
-    <entry file="file://$PROJECT_DIR$/src/hello.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/functions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="908">
@@ -698,10 +702,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/hello.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="39" selection-start-line="39" selection-end-line="49" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pycallboostdll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pycalldll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        <state relative-caret-position="76">
+          <caret line="8" column="8" selection-start-line="8" selection-end-line="8" selection-end-column="8" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
