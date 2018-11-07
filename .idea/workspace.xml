@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25ca8a90-1bf8-4a9a-9691-f0f556f8d22c" name="Default" comment="asyncio demo">
+    <list default="true" id="25ca8a90-1bf8-4a9a-9691-f0f556f8d22c" name="Default" comment="pattern demo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,40 +85,43 @@
     <session id="-1940628427">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.21" value="3" />
-          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.22" value="4" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="3" />
           <entry key="project.open.time.25" value="5" />
           <entry key="project.open.time.27" value="3" />
-          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.29" value="3" />
           <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
           <entry key="project.open.time.38" value="1" />
+          <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.53" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="36" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="52" />
           <entry key="gitignore" value="9" />
-          <entry key="py" value="3593" />
+          <entry key="py" value="3945" />
           <entry key="qml" value="2" />
-          <entry key="txt" value="128" />
+          <entry key="test1111" value="123" />
+          <entry key="txt" value="135" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="191" />
-          <entry key="Python" value="3593" />
+          <entry key="PLAIN_TEXT" value="198" />
+          <entry key="Python" value="4068" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -126,7 +129,7 @@
           <entry key="gitignore" value="2" />
           <entry key="jpg" value="2" />
           <entry key="png" value="4" />
-          <entry key="py" value="141" />
+          <entry key="py" value="153" />
           <entry key="qml" value="6" />
           <entry key="txt" value="3" />
         </counts>
@@ -135,7 +138,7 @@
         <counts>
           <entry key="Image" value="6" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="141" />
+          <entry key="Python" value="153" />
         </counts>
       </usages-collector>
     </session>
@@ -143,91 +146,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterndemo/chainofresponsibility.py">
+        <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="30" selection-start-line="25" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterndemo/command.py">
+        <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="342">
+              <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterndemo/mediator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterndemo/template.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterndemo/iterator.py">
+        <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterndemo/visitor.py">
+        <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+            <state relative-caret-position="190">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterndemo/observer.py">
+        <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent6.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="60" column="30" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="30" />
+            <state relative-caret-position="285">
+              <caret line="16" column="26" selection-start-line="16" selection-end-line="16" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterndemo/interpreter.py">
+        <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="798">
+              <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterndemo/memento.py">
+        <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="266">
+              <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent9.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="32" selection-start-line="29" selection-start-column="11" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/patterndemo/state.py">
+        <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent10.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+            <state relative-caret-position="394">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -254,9 +257,12 @@
       <find>pic_num</find>
       <find>print</find>
       <find>LogManager</find>
+      <find>xrange</find>
     </findStrings>
     <replaceStrings>
       <replace>src</replace>
+      <replace>print(</replace>
+      <replace>range</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -265,18 +271,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/hellopyqt5.py" />
-        <option value="$PROJECT_DIR$/src/wxdemo/wxdemo1.py" />
-        <option value="$PROJECT_DIR$/src/wxdemo/wxdemo2.py" />
-        <option value="$PROJECT_DIR$/src/wxdemo/wxdemo3.py" />
-        <option value="$PROJECT_DIR$/src/turtledemo.py" />
-        <option value="$PROJECT_DIR$/src/tkinterdemo/tkinter2.py" />
-        <option value="$PROJECT_DIR$/src/tkinterdemo/tkinter1.py" />
-        <option value="$PROJECT_DIR$/src/turtledemo2.py" />
-        <option value="$PROJECT_DIR$/src/matplotlibdemo/3dplot.py" />
-        <option value="$PROJECT_DIR$/src/matplotlibdemo/lineplot.py" />
-        <option value="$PROJECT_DIR$/src/scipydemo/scipydemo1.py" />
-        <option value="$PROJECT_DIR$/src/pandas/pandasdemo1.py" />
         <option value="$PROJECT_DIR$/src/pylabdemo/pylabdemo1.py" />
         <option value="$PROJECT_DIR$/src/matplotlibdemo/qt5agg_menu.py" />
         <option value="$PROJECT_DIR$/src/matplotlibdemo/qt5agg_nomenu.py" />
@@ -316,6 +310,18 @@
         <option value="$PROJECT_DIR$/src/patterndemo/interpreter.py" />
         <option value="$PROJECT_DIR$/src/patterndemo/memento.py" />
         <option value="$PROJECT_DIR$/src/patterndemo/state.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/coroutinedemo.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/gevent1.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/gevent2.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/gevent3.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/gevent4.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/gevent5.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/gevent6.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/gevent7.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/test1111.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/gevent8.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/gevent9.py" />
+        <option value="$PROJECT_DIR$/src/geventdemo/gevent10.py" />
       </list>
     </option>
   </component>
@@ -326,10 +332,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="657" />
-    <option name="y" value="33" />
+    <option name="x" value="437" />
     <option name="width" value="1267" />
-    <option name="height" value="1100" />
+    <option name="height" value="1069" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -351,6 +356,12 @@
               <item name="hellopython" type="b2602c69:ProjectViewProjectNode" />
               <item name="hellopython" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hellopython" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hellopython" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="geventdemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hellopython" type="b2602c69:ProjectViewProjectNode" />
@@ -393,7 +404,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.state">
+  <component name="RunManager" selected="Python.gevent10">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="hellopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -438,17 +449,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="interpreter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gevent10" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hellopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/patterndemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/geventdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/patterndemo/interpreter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/geventdemo/gevent10.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -457,17 +471,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="memento" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gevent7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hellopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/patterndemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/geventdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/patterndemo/memento.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/geventdemo/gevent7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -476,17 +493,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="observer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gevent8" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hellopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/patterndemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/geventdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/patterndemo/observer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/geventdemo/gevent8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -495,17 +515,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="state" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gevent9" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hellopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/patterndemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/geventdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/patterndemo/state.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/geventdemo/gevent9.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -514,17 +537,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="visitor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test1111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="hellopython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/patterndemo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/geventdemo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/patterndemo/visitor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/geventdemo/test1111.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -559,19 +585,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.copys" />
-      <item itemvalue="Python.visitor" />
-      <item itemvalue="Python.observer" />
-      <item itemvalue="Python.interpreter" />
-      <item itemvalue="Python.memento" />
-      <item itemvalue="Python.state" />
+      <item itemvalue="Python.gevent7" />
+      <item itemvalue="Python.test1111" />
+      <item itemvalue="Python.gevent8" />
+      <item itemvalue="Python.gevent9" />
+      <item itemvalue="Python.gevent10" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.state" />
-        <item itemvalue="Python.memento" />
-        <item itemvalue="Python.interpreter" />
-        <item itemvalue="Python.observer" />
-        <item itemvalue="Python.visitor" />
+        <item itemvalue="Python.gevent10" />
+        <item itemvalue="Python.gevent9" />
+        <item itemvalue="Python.gevent8" />
+        <item itemvalue="Python.test1111" />
+        <item itemvalue="Python.gevent7" />
       </list>
     </recent_temporary>
   </component>
@@ -670,7 +696,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541054167919</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="pattern demo">
+      <created>1541145124319</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1541145124319</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -682,9 +715,9 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="657" y="33" width="1267" height="1100" extended-state="0" />
+    <frame x="437" y="0" width="1267" height="1069" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25766364" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27920464" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -696,8 +729,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49833333" weight="0.3287037" />
-      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.86081195" visible="true" weight="0.29503107" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.13918807" side_tool="true" visible="true" weight="0.29503107" />
+      <window_info anchor="bottom" id="Python Console" order="9" sideWeight="0.8550124" visible="true" weight="0.30481285" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.14498757" side_tool="true" visible="true" weight="0.30481285" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="13" />
@@ -706,8 +739,8 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="SciView" order="5" sideWeight="0.9441997" visible="true" weight="0.26760563" />
-      <window_info anchor="right" x="0" y="0" width="210" height="800" id="Documentation" order="6" sideWeight="0.055800293" side_tool="true" visible="true" weight="0.26760563" />
+      <window_info anchor="right" id="SciView" order="5" sideWeight="0.9369231" visible="true" weight="0.26760563" />
+      <window_info anchor="right" x="0" y="0" width="210" height="800" id="Documentation" order="6" sideWeight="0.06307692" side_tool="true" visible="true" weight="0.26760563" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,87 +759,10 @@
     <MESSAGE value="wx,tkinter,turtle demo" />
     <MESSAGE value="opencv demo (opencv-contrib-python 3.4.2.16)" />
     <MESSAGE value="asyncio demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="asyncio demo" />
+    <MESSAGE value="pattern demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="pattern demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/turtledemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matplotlibdemo/3dplot.py" />
-    <entry file="file://$PROJECT_DIR$/src/turtledemo2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matplotlibdemo/lineplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scipydemo/scipydemo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pandas/pandasdemo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pylabdemo/pylabdemo1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matplotlibdemo/qt5agg_menu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matplotlibdemo/qt5agg_nomenu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matplotlibdemo/adjustrect.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tkinterdemo/tkinter2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/matplotlibdemo/matplotlib_tkinter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="4" column="85" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/matplotlibdemo/matplotlib_tkinter_2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -993,14 +949,14 @@
     <entry file="file://$PROJECT_DIR$/src/patterndemo/chainofresponsibility.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/patterndemo/command.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1014,21 +970,21 @@
     <entry file="file://$PROJECT_DIR$/src/patterndemo/template.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
-          <caret line="64" column="26" lean-forward="true" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/patterndemo/iterator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/patterndemo/visitor.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="969">
-          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1048,15 +1004,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/patterndemo/memento.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="418">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/patterndemo/state.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="418">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/coroutinedemo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="34" column="14" selection-start-line="33" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/test1111.py" />
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" selection-start-line="25" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="26" selection-start-line="16" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="43" selection-start-line="43" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="32" selection-start-line="29" selection-start-column="11" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/geventdemo/gevent10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
